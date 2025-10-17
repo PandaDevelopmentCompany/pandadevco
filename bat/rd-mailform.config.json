@@ -1,0 +1,8 @@
+{
+  "useSmtp": false,
+  "host": "stmp.yandex.ru",
+  "port": 465,
+  "username": "info@panda-development.ru",
+  "password": "",
+  "recipientEmail":  "info@panda-development.ru"
+}
