@@ -352,11 +352,11 @@ input, select, textarea {
 
 			form > .fields {
 				width: calc(100% + 3rem);
-				margin: -1.5rem 0 2rem -1.5rem;
+				margin: -1.5rem 0 1rem -1.5rem;
 			}
 
 				form > .fields > .field {
-					padding: 1.5rem 0 0 1.5rem;
+					padding: 1rem 0 0 1rem;
 					width: calc(100% - 1.5rem);
 				}
 
@@ -370,6 +370,16 @@ input, select, textarea {
 
 					form > .fields > .field.quarter {
 						width: calc(100% - 1.5rem);
+					}
+					
+					form > label[for="slider"] {
+					 margin-top: 10px;
+					}
+					#contact h2.major {
+						margin-bottom: 10px !important;
+					}
+					#contact > p {
+						margin-bottom: 1rem !important;
 					}
 
 		}
