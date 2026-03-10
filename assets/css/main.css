@@ -1714,6 +1714,8 @@ img.img_about_us {
 		article#intro {
 			background: none;
 			width: 80%;
+			height: 96vh !important;
+			margin-top: 2vh;
 		}
 		article#contact {
 			background: none;
@@ -1721,10 +1723,14 @@ img.img_about_us {
 		article#work {
 			background: none;
 			width: 95%;
+			height: 96vh !important;
+			margin-top: 2vh;
 		}
 		article#about {
 			background: none;
 			width: 80%;
+			height: 96vh !important;
+			margin-top: 2vh;
 		}
 
 		/* Убрать полосу прокрутки */
@@ -1753,7 +1759,6 @@ img.img_about_us {
 				width: 100% !important;
 			}
 		}
-
 
 
 

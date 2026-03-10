@@ -6221,3 +6221,134 @@ article#work a {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.p_accent {
+  font-weight: 600;
+}
+
+
+
+
+
+
+.cta-button {
+  padding-left: 0;
+  border: solid 1px #ffffff;
+  text-decoration: none;
+  display: block;
+  line-height: 2.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-size: 0.8rem;
+  justify-content: center;
+  margin: 0 auto;
+  width: 200px !important;
+  border-radius: 4px;
+}
+.cta-button:hover {
+  border-bottom-color: #fff;
+  background-color: rgba(255, 255, 255, 0.075);
+}
+
+
+/* отключить скролл body при открытых попап окнах */
+body.is-article-visible {
+    overflow: hidden;
+}
+
+
+
+
+.slider_text {
+  font-weight: 600;
+}
+
+
+
+@media screen and (min-width: 768px) {
+  br.only_mobile {
+  display: none !important; 
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.team-title {
+  margin-top: 60px;
+  text-align: center;
+  font-size: 22px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+
+
+.team-grid {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;  
+  gap: 40px;
+}
+
+.team-card {
+  width: 250px;              
+  text-align: center;
+}
+
+.team-card img {
+  width: 100%;
+  max-width: 220px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  filter: grayscale(10%);
+  transition: 0.3s ease;
+}
+
+.team-card h4 {
+}
+
+.team-card img:hover {
+  transform: translateY(-5px);
+  filter: grayscale(0%);
+}
+
+.position {
+  font-weight: 600;
+  opacity: 0.7;
+  margin-bottom: 10px;
+}
+
+.team-description {
+  font-size: 14px;
+  line-height: 1.5;
+  opacity: 0.8;
+}
+
+
